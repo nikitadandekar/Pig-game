@@ -1,0 +1,109 @@
+* body {
+  background-color: deeppink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #493240,
+    #ff0099
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.player {
+  width: 450px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.player--active {
+  background-color: rgb(222, 221, 221);
+}
+.name h2 {
+  color: rgb(91, 88, 88);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.score p {
+  color: #c7365f;
+  font-size: 5rem;
+  position: absolute;
+  left: 200px;
+  top: 400px;
+}
+.current {
+  width: 200px;
+  height: 90px;
+  background-color: #c7365f;
+  border-radius: 9px;
+  position: relative;
+  top: 290px;
+  left: 130px;
+}
+.current p {
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-left: 60px;
+  color: #add;
+  font-size: 1rem;
+}
+.current h2 {
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  left: 90px;
+  top: 10px;
+}
+.btn--new {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  border-radius: 5rem;
+  border: none;
+  background: none;
+  background: white;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 340px;
+  left: 270px;
+  transition: all 0.25s;
+}
+.btn--Roll {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  border-radius: 5rem;
+  border: none;
+  background: none;
+  background: white;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 50px;
+  left: 270px;
+  transition: all 0.25s;
+}
+.btn--hold {
+  text-transform: uppercase;
+  width: 100px;
+  height: 40px;
+  border-radius: 5rem;
+  border: none;
+  background: none;
+  background: white;
+  font-size: 1rem;
+  position: absolute;
+  left: 290px;
+  transition: all 0.25s;
+}
+.dice {
+  position: absolute;
+  left: 340px;
+  bottom: 180px;
+  transform: translateX(-50%);
+  height: 7rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
